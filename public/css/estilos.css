@@ -1,0 +1,53 @@
+.fondo{ 
+		
+		background-color:  black; 
+		opacity: 0.7;
+		position: relative;
+		width: 100%;	
+		z-index: 2;
+
+		}
+.fondo8{ background-color:  black; 
+		opacity: 0.7;
+		border-color: black;
+		}
+.fon{
+	opacity: 200;
+	color: white;
+}
+		
+.ColorLetrasBlanco{
+	color: white;
+}
+.fondo2{ 	border-style: solid;
+    		border-width: 1px; 
+    		border-color: #E6E6E6;
+    		background: #F2F2F2; 
+		}
+.fondo3{
+	background-color:  black; 
+		opacity: 0.7;
+		
+}
+.borde1{
+			border-style: solid;
+    		border-width: 2px; 
+    		border-color: #FE2E2E;
+}		
+.fondoGeneral{
+	background:black;
+}	
+
+body{
+	background: url(../ok6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.activacion{
+	background: black;
+}
+
+
+	

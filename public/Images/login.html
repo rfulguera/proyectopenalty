@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Penalty Argentina - Sitio Oficial</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<style type="text/css">
+		body{
+			background-color: black;
+			color: white;
+		}
+		#ima {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		#imaizquierda{
+			padding-right: 0;
+		}
+		#imaderecha{
+			padding-right: 0;
+		}
+		#boton{
+			padding-right: 0;
+		}
+	</style>
+</head>
+<body>
+		<div class="container" >
+				<div class="row" ><br></div>	
+				<div class="row " >
+					<nav class="navbar navbar-default fondo navbar-fixed-bottom" style="border-width: 2px;border-color: white">
+			        <div class="container">
+			          <div class="navbar-header fondo8 " >
+			            <button type="button" class="navbar-toggle collapsed fondo8 " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			              <span class="sr-only">Toggle navigation</span>
+			              <span class="icon-bar"></span>
+			              <span class="icon-bar"></span>
+			              <span class="icon-bar"></span>
+			            </button>
+			            <a class="navbar-brand" href="#"><img src="Images/logo.png" class="img-responsive fon" style="opacity: 1000%;" ></a>
+			          </div>
+			          <div id="navbar" class="navbar-collapse collapse">
+			            <ul class="nav navbar-nav">
+			              
+			            </ul>
+
+			            <ul class="nav navbar-nav navbar-right">
+			              <li class="colorfondo">
+			              	<a href="index.html">  <h5 class="fon">INICIO</h5>  <span class="sr-only">(current)</span>
+			              	</a>
+			              </li>
+			              <li class="colorfondo"><a href="lineas.html"><h5 class="fon">LINEAS</h5> </a></li>
+			              <li class="colorfondo"><a href="clubes.html"><h5 class="fon">CLUBES</h5></a></li>
+			              <li class="colorfondo"><a href="calzados.html"><h5 class="fon">CALZADO</h5></a></li>
+			              <li class="colorfondo"><a href="balones.html"><h5 class="fon">BALONES</h5></a></li>
+			              <li class="colorfondo"><a href="indumentaria.html"><h5 class="fon">INDUMENTARIO</h5></a></li>
+			              <li class="colorfondo" id="nomusuario1"><a href="accesorios.html"><h5 class="fon">ACCESORIO</h5></a></li>
+			              <li style="background-color: #27674D"><a href="#"><h5 class="fon">INICIAR SESION</h5></a></li>
+			              <li class="colorfondo"><a href="#"><img src="Images/buscador.png" class="img-responsive fon" width="40" ></a></li>
+			              <li class="colorfondo1"><a href="#"> <img src="Images/car.png" class="img-responsive fon" width="40" > </a></li>
+			              <li><a href="#"><h4 style="color: orange" class="fon">0</h4></a></li>
+			            </ul>
+			          </div>
+			        </div>
+			      </nav>	  
+				</div>							
+		
+
+		
+	</div>
+
+
+
+	<form method="POST" id="formlogin">
+		<div class="row">
+			<div class="col-md-12">
+										
+				<label class="nomusuario" style="font-size: 25px"></label>
+			</div>
+		</div>
+
+
+		<section id="post-results-container" >
+							              <h2>POST DATA</h2>
+							              <p>Here is the data you posted:</p>
+							              <ul  class="data"></ul>
+
+		</section>
+
+
+
+		
+				<div class="container"><br>		
+					<div class="row">
+						<div class="col-md-3">
+						
+						</div>
+						
+						<div class="col-md-6">
+								<br><br><br>
+								
+
+								<div class="row">
+									<div class="col-md-12" align="center" style="color: black;font-size: 50px">
+										Iniciar Sesion
+										</h1>
+									</div>
+								</div>
+
+								<div class="row" align="center">
+									<img src="Images/login1.png" class="img-responsive" width="200"><br><br>
+								</div>
+
+								<div class="row">
+									 <div class="col-md-12">
+										<div class="form-group has-success">
+										 <input type="text" name="email" class="form-control form-success" placeholder="user"  autofocus>
+										</div>
+									 </div>
+								</div>
+
+								<div class="row">
+									 <div class="col-md-12">
+									 	<div class="form-group has-success">
+										 <input type="password" name="password"  class="form-control" placeholder="Password"><br>
+										</div>
+									 </div>
+								</div>
+
+								<div class="row">
+									<div class="col-md-12">
+										<input type="submit" id="verificarlogin" value="Sign in"  width="500"></input><img class="ajaxLoader" src="images/ajax-loader.gif">
+							<!--<button id="registrar" class="btn btn-lg btn-primary btn-block" type="submit" style="background-color:#27674D">Sign in</button>-->
+									</div>
+								</div><br><br>
+
+								<div class="row">
+									<div class="col-md-12" align="center">
+										<a href="#" class="modalregistro" data-toggle="modal" data-target="#registro1">Registrate Aqui</a>
+									</div>
+								</div>
+								
+						</div>
+					
+						<div class="col-md-3">
+							
+						</div>
+					</div>
+				</div>
+		</form>
+
+
+
+
+		<form method="POST" id="testForm">
+			<div class="modal fade" id="registro1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+				<div class="modal-dialog" role="document"  style="width: 1000px">
+					<div class="modal-content" style="background-color: #27674D;opacity: 0.9">
+						<div class="modal-header" style="background-color: black">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+							<div class="row">
+								<div class="col-md-12" align="center">
+									<h1 data-toggle="modal">REGISTRATE</h1><br>
+								</div>
+							</div>
+						</div>
+						<div class="modal-body">
+							
+							<div class="row">
+								<div class="col-md-1">
+										
+								</div>
+								<div class="col-md-2">
+									Nombre:
+								</div>
+								<div class="col-md-8">
+									<input type="text" name="nom" placeholder="Introduce tu nombre" class="form-control"></input><br>
+								</div>
+								<div class="col-md-1">	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+										
+								</div>
+								<div class="col-md-2">
+									Apellido:
+								</div>
+								<div class="col-md-8">
+									<input type="text" name="ape" placeholder="Introduce tu apellido" class="form-control"></input><br>
+								</div>
+								<div class="col-md-1">	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+										
+								</div>
+								<div class="col-md-2">
+									Direccion:
+								</div>
+								<div class="col-md-8">
+									<input type="text" name="dir" placeholder="Introduce tu direccion" class="form-control"></input><br>
+								</div>
+								<div class="col-md-1">	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+										
+								</div>
+								<div class="col-md-2">
+									Correo:
+								</div>
+								<div class="col-md-8">
+									<input type="email" name="corr" placeholder="Introduce tu correo" class="form-control"></input><br>
+								</div>
+								<div class="col-md-1">	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+										
+								</div>
+								<div class="col-md-2">
+									Telefono:
+								</div>
+								<div class="col-md-8">
+									<input type="text" name="tel" placeholder="Introduce tu telefono" class="form-control"></input><br>
+								</div>
+								<div class="col-md-1">	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+										
+								</div>
+								<div class="col-md-2">
+									Usuario:
+								</div>
+								<div class="col-md-8">
+									<input type="text" name="usu" placeholder="Introduce tu usuario" class="form-control"></input><br>
+								</div>
+								<div class="col-md-1">	
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-1">
+										
+								</div>
+								<div class="col-md-2">
+									Contraseña:
+								</div>
+								<div class="col-md-8">
+									<input type="password" name="pas" placeholder="Introduce tu contraseña" class="form-control"></input><br>
+								</div>
+								<div class="col-md-1">	
+								</div>
+							</div>
+							
+						</div>
+						<div class="modal-footer">
+							<div class="col-md-12" align="center">
+								<!--<input type="submit"  data-dismiss="modal"  id="submitButton" value="CREAR" class="btn btn-warning" width="500"></input>-->
+								<input type="submit"  data-dismiss="modal"  id="submitButton" value="CREAR" width="500"></input>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</form>		
+		
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+		
+      <script type="text/javascript" src="js/form-handler.js"></script>
+      <script type="text/javascript" src="js/form-iniciar.js"></script>
+
+		<script type="text/javascript">
+			$(".modalregistro").click(function () { $("registro1").modal("show") })
+
+
+
+
+
+		 	$('.colorfondo').mouseenter(function(e){
+			$(this).css("background-color","#27674D");
+		
+			})
+
+			$('.colorfondo').mouseleave(function(e){
+			$(this).css("background-color","black");
+		
+			})
+
+			$('.colorfondo1').mouseenter(function(e){
+			$(this).css("background-color","#B58310");
+		
+			})
+
+			$('.colorfondo1').mouseleave(function(e){
+			$(this).css("background-color","black");
+		
+			})
+
+
+
+
+
+			$('#verificarlogin').click(function(){
+				$.ajax
+				({
+					//la ruta
+					url:'/form2',
+					//get - enviar informacion con la url
+					//post - internamente hace una peticion, no se muestra
+					type:'POST',
+					dataType:'JSON',
+					//cuando todo esta bien
+					success: function(data)
+					{
+						console.log(data)
+						$('.nomusuario').text(data);
+					},
+					//cuando hay un error
+					error:function(err){}
+				})
+			})
+	</script>
+}
+</body>
+</html>
